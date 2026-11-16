@@ -59,7 +59,7 @@ while True:
             gerenciador.cadastrar(produto)
 
         except ValueError as erro:
-            print("Erro:", erro)
+            print("Erro❌gi:", erro)
 
     elif opcao == "2":
         gerenciador.listar()
