@@ -43,7 +43,7 @@ while True:
                 )
 
             elif tipo == "2":
-                tamanho = int(input("Tamanho em ml: "))
+                tamanho = int(input("Tamanho em ML: "))
 
                 produto = Bebida(
                     nome, preco, estoque, tamanho

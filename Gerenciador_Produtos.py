@@ -9,7 +9,7 @@ class Gerenciador_Produtos:
     def cadastrar(self, produto):
         """Adiciona um produto à lista."""
         self._produtos.append(produto)
-        print("Produto cadastrado com sucesso!")
+        print("Produto cadastrado com sucesso! 🌟")
 
     def listar(self):
         """Mostra todos os produtos cadastrados."""
@@ -28,7 +28,6 @@ class Gerenciador_Produtos:
         return None
 
     def executar_acao(self):
-        """Executa o método preparar de todos os produtos."""
         if len(self._produtos) == 0:
             print("Nenhum produto cadastrado.")
         else:
