@@ -78,7 +78,7 @@ while True:
         gerenciador.executar_acao()
 
     elif opcao == "5":
-        print("Obrigado por utilizar o sistema do Scooby Lanches!")
+        print("Obrigado por utilizar o sistema do Scooby Lanches!🍟🍔🍹")
         break
 
     else:
