@@ -8,7 +8,7 @@ from Gerenciador_Produtos import Gerenciador_Produtos
 gerenciador = Gerenciador_Produtos()
 
 while True:
-    print("\n===== LANCHONETE =====")
+    print("\n✨ → LANCHONETE SCOOBY LANCHES ← ✨ \nProprietárias: Larissa e Yasmim \nContato: (47) 99227 - 7091\nHorários: Seg - Sex 7:30 até 18:00\n 9")
     print("1 - Cadastrar produto")
     print("2 - Listar produtos")
     print("3 - Buscar produto")
@@ -19,9 +19,9 @@ while True:
 
     if opcao == "1":
 
-        print("\n1 - Lanche")
-        print("2 - Bebida")
-        print("3 - Sobremesa")
+        print("\n1 - Lanche 🍔")
+        print("2 - Bebida 🍹")
+        print("3 - Sobremesa 🍨")
 
         tipo = input("Escolha o tipo de produto: ")
 

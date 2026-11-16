@@ -23,7 +23,7 @@ class Lanche(Produto):
 
     def preparar(self):
         """Prepara um lanche."""
-        return f"Preparando o lanche {self.nome}."
+        return f"\nPREPARANDO O LANCHE 1{self.nome}.\nAguarde alguns minutos!"
 
     def mostrar_ingredientes(self):
         """Mostra os ingredientes do lanche."""
