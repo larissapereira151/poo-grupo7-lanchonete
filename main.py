@@ -8,7 +8,7 @@ from Gerenciador_Produtos import Gerenciador_Produtos
 gerenciador = Gerenciador_Produtos()
 
 while True:
-    print("\n✨ → LANCHONETE SCOOBY LANCHES ← ✨ \nProprietárias: Larissa e Yasmim \nContato: (47) 99227 - 7091\nHorários: Seg - Sex 7:30 até 18:00\n 9")
+    print("\n✨ → LANCHONETE SCOOBY LANCHES ← ✨ \nProprietárias: Larissa e Yasmim \nContato: (47) 99227 - 7091\nHorários: Seg - Sex 7:30 até 18:00\n")
     print("1 - Cadastrar produto")
     print("2 - Listar produtos")
     print("3 - Buscar produto")
