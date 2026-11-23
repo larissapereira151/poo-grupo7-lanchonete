@@ -1,23 +1,26 @@
 
 class Produto:
 
+#INICIA
     def __init__(self, nome, preco, estoque):
         self.nome = nome
         self.preco = preco
         self.estoque = estoque
 
+#ENCAPSULAMENTO
     # Getter e setter do nome
     @property
     def nome(self):
         return self.__nome
 
+#CONTROLAR A ALTERAÇÃO DO NOME
     @nome.setter
     def nome(self, valor):
         if not isinstance(valor, str) or valor.strip() == "":
             raise ValueError("Nome inválido.")
         self.__nome = valor
 
-    # Getter e setter do preço
+#PERMITE ACESSAR O PREÇO
     @property
     def preco(self):
         return self.__preco
@@ -32,7 +35,7 @@ class Produto:
     @property
     def estoque(self):
         return self.__estoque
-
+#VEREFICA SE É UM NUM. INTEIRO OU NEGATIVO
     @estoque.setter
     def estoque(self, valor):
         if not isinstance(valor, int) or valor < 0:

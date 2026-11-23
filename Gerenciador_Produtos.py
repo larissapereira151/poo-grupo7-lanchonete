@@ -1,9 +1,10 @@
-
+#gerencia os produtos, permitindo cadastrar, listar, buscar e executar ações.
 class Gerenciador_Produtos:
 
     def __init__(self):
         self._produtos = []
 
+#append(): adiciona um item ao final da lista.
     def cadastrar(self, produto):
         self._produtos.append(produto)
         print("Produto cadastrado com sucesso! 🌟")
