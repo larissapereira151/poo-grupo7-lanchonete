@@ -19,7 +19,7 @@ class Sobremesa(Produto):
         self._tipo = valor
 
     def preparar(self):
-        return f"Servindo a sobremesa {self.nome}."
+        return f"Preparando a sobremesa {self.nome}."
 
     def mostrar_tipo(self):
         return f"Tipo: {self.tipo}"

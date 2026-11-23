@@ -19,7 +19,7 @@ class Bebida(Produto):
         self._tamanho_ml = valor
 
     def preparar(self):
-        return f"Servindo a bebida {self.nome}."
+        return f"Preparando a bebida {self.nome}."
 
     def mostrar_tamanho(self):
         return f"Tamanho: {self.tamanho_ml} ml"
